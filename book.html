@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        document.getElementsByName("p")[3].style.color="blue";
+function validator(){
+var message = document.forms ["dom-form"]["message"].value;
+if (message==""){
+    alert ("Hope you see it");
+    return false;
+}
+return true;
+        }
+</script>
+
+<body>
+    <p id="mahama">Mahama coding school</p>
+    <p>Testing</p>
+
+    <form action="#" id="dom-form" onsubmit="return validator()"method="post">
+    <input type="text"name="message">
+    <button type="submit">submit</button>
+    </form>
+<script>
+document.getElementsByTagName("p")[0].style.color="green";
+document.getElementsByTagName("button").style.backgroundcolor="green";
+document.createElement("form")
+</script>
+</body>
+</html>

@@ -1,0 +1,391 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(245, 244, 244)
+}
+nav{
+    background-color: rgb(236, 234, 234);
+    display: flex;
+    padding: 10px;
+    box-shadow: #ccc 0px 0px 10px;
+}
+.first-section p{
+    color: #55186f;
+    font-weight: bold;  
+}
+
+.first-section .ACME{
+    color:rgb(236, 229, 229);
+    background-color:#702692 ;
+    margin: 5px;
+    padding:5px;
+    border-radius: 5px;
+    font-weight: semibold;
+}
+
+.middle-section input{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin-left: 80px;
+}
+
+.middle-section i {
+    padding: 10px;
+    color: rgb(178, 184, 178);
+    min-width: 50px;
+    margin-left: 80px;
+    text-align: right;
+    position: absolute;
+}
+
+.left-p{
+    font-weight: 400;
+    margin-left: 40px;
+    margin-left: 200px;
+    margin-right: -200px;
+}
+
+.left-section ul{
+    display: flex;
+    position: absolute;
+    list-style: none;
+    margin-left: 80px;
+    color: #55186f;
+}
+.left-section ul li {
+    color: black;
+    font-size: 20px;
+    background-color: #f0edf1;
+    margin-left: 90px;
+    padding-left: 40px;
+}
+
+.left-section img{
+    height: 20px;
+    width: 20px;
+    margin-left: 40px;
+    border-radius: 50%;
+}
+
+.sidebar{
+    background-color: #55186f;
+    width: 100px;
+    height: 100vh;
+    position: fixed;
+    top: 65px;
+    left: 0;
+}
+
+.sidebar span p{
+    color: rgb(231, 223, 223);
+    font-size: 12px;
+    margin-left: 20px;
+    padding: 10px;
+}
+.sidebar i{
+    color: rgb(238, 232, 232);
+    font-size: 20px;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.sidebar span {
+    background-color: #55186f;
+    display: block;
+    padding: 10px;
+    margin: 5px 0;
+    margin-bottom: 0;
+}
+.content{
+    margin-left: 100px;
+    margin-top: 15px;
+    background-color: #8cbed6;
+    height: 100vh;
+    width: 150px;
+    position: fixed;
+}
+.sidebar .unique{
+    background-color:#8CBED6 ;
+    padding: 20px;
+    bottom: 10px;
+}
+.content ul{
+    list-style-type: none;
+}
+.content li{
+    padding:10px;
+}
+.content ul li.dashboard{
+    background-color: #55186f;
+}
+
+li{
+    -webkit-text-fill-color: rgb(0, 0, 0);
+}
+button{
+    background-color: rgb(44, 8, 92);
+    height: 30px;
+    width: 80px;
+}
+.dashboard{
+    margin-left: 200%;
+    margin-top: 19%;
+}
+.link{
+    padding: 10px;
+}
+
+.ee{
+    background-color: rgb(255, 255, 255);
+    width: 800px;
+    height: 300px;
+    position: fixed;
+    top: 65px;
+    margin-inline-start: 300px;
+    margin-block-start: 100px;
+}
+.sidebar .unique{
+    background-color:#8CBED6 ;
+    padding: 20px;
+    bottom: 10px;
+}
+.drop{
+    margin-left: 600px;
+}
+.Employee{
+    color: #55186f;
+}
+.mean{
+    margin-left: 270px;
+    display: grid;
+    padding: 15px;
+    background-color: #e9e6e6;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.fa-list-ul{
+    margin-left: 900px;
+}
+.grid{
+    background-color: #55186f;  
+    border: 1px solid#ccc;
+    border-radius: 5px;
+    padding: 10px;
+}
+.icons{
+    margin-left: 270px;
+}
+.departments{
+   margin-left:  700px;
+}
+.mea{
+    margin-left: 270px;
+    display: grid;
+    background-color: #ffff;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 90px;
+    padding-right:190px;
+     width: 1000px;
+     height: 1000px;
+    
+} 
+.mea div{
+    padding: 5px;
+    margin: 50px;
+    border: 4px;
+    box-shadow: #ccc 0px 0px 10px;
+    width: 200px;
+    height: 150px;
+    background-color: #5cee23;
+}
+.mea img{
+    height: 20px;
+    width: 20px;
+    border-radius: 50px;
+    margin-left: 160px;
+}
+.fan{
+    margin-left: 125px;
+}
+.put{
+    background-color: #702692;
+    color: rgb(253, 250, 250);
+    margin-left: 120px;
+    
+}
+.sa{
+    margin-left:  130px;
+}
+     
+
+.as{
+    background-color: #8CBED6;
+    color: #f0edf1;
+    margin-left: 130px;
+    padding: 0px;
+}
+.work{
+    margin-left: 500px;
+}
+.a{
+    background-color: #55186f;
+    color: #ccc;
+    margin-left:130px ;
+    padding: 0px;
+    height: 20px;
+}
+.b{
+    margin-left: 130px;
+}
+.e{
+    background-color: #6a7dee;
+    color: #ccc;
+    margin-left:130px ;
+    padding: 0px;
+    height: 20px;
+}
+.c{
+    margin-left: 130px;
+}
+.d{
+    background-color: #ee6ad8;
+    color: #ccc;
+    margin-left:130px ;
+    padding: 0px;
+    height: 20px;
+}
+.f{
+    margin-left: 130px;
+}
+.g{
+    background-color: #c2df22;
+    color: #ccc;
+    margin-left:130px ;
+    padding: 0px;
+    height: 20px;
+}
+.h{
+    margin-left: 130px;
+}
+.hh{
+    background-color: #6a7dee;
+    color: #ccc;
+    margin-left:130px ;
+    padding: 0px;
+    height: 20px;
+}
+.bb{
+    margin-left: 130px;
+}
+.aa{
+    background-color: #2845e9;
+    color: #ccc;
+    margin-left:130px ;
+    padding: 0px;
+    height: 20px;
+}
+.ea{
+    margin-left: 130px;
+}
+.q{
+    background-color: #edf04a;
+    color: #ccc;
+    margin-left:130px ;
+    padding: 0px;
+    height: 20px;
+}
+.u{
+    margin-left: 130px;
+}
+.qq{
+    background-color: #e94c95;
+    color: #ccc;
+    margin-left:130px ;
+    padding: 0px;
+    height: 20px;
+}
+.uu{
+    margin-left: 130px;
+}
+.we{
+    background-color: #f3f721;
+    color: #ccc;
+    margin-left:130px ;
+    padding: 0px;
+    height: 20px;
+}
+.me{
+    margin-left: 130px;
+}
+.you{
+    background-color: #2c4af5;
+    color: #ccc;
+    margin-left:130px ;
+    padding: 0px;
+    height: 20px;
+}
+.he{
+    margin-left: 130px;
+}
+.she{
+    background-color: #e94c95;
+    color: #ccc;
+    margin-left:130px ;
+    padding: 0px;
+    height: 20px; 
+}
+.the{
+    margin-left: 130px;
+}
+.are{
+    background-color: #e736e7;
+    color: #ccc;
+    margin-left:130px ;
+    padding: 0px;
+    height: 20px;
+}
+.is{
+    margin-left: 130px;
+}
+.a1{
+    background-color: #5cee23;
+    color: #ccc;
+    margin-left:130px ;
+    padding: 0px;
+    height: 20px;
+}
+.a2{
+    margin-left: 130px;
+}
+.ss{
+    background-color: #e94c95;
+    color: #ccc;
+    margin-left:130px ;
+    padding: 0px;
+    height: 20px;
+}
+.ww{
+    margin-left: 130px;
+}
+.ul{
+    margin-left: 1000px;
+}
+.fane{
+    background-color: #55186f;
+    margin-left: 120px;
+}
+.fanl{
+    background-color: #ee6ad8;
+    margin-left: 120px;
+}
+.fani{
+    margin-left: 120px;
+    background-color: #1596b0;
+}
+
+

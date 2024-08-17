@@ -1,0 +1,147 @@
+.se input{
+    margin-left: 300px;
+    margin-top: 100px;
+    width: 600px;
+    height: 60px;
+    border-radius: 20px;  
+}
+.li img{
+    margin-top: -110px;
+}
+.fre{
+    margin-left: 750px;
+    margin-top: -110px;
+}
+.free{
+    margin-left: 570px;
+    margin-top: -10px;
+}
+.hh{
+    margin-left: 650px;
+    margin-top: -24px;
+}
+.yyy{
+    margin-left: 650px;
+    margin-top: -40px;
+    background-color: blue;
+    height: 30px;
+    color: #fff;
+    width: 80px;
+}
+.ssa{
+    margin-left: -750px;
+    margin-top: 30px;
+    color: antiquewhite;
+    display: flex;
+
+}
+.ssa a{
+    padding: 60px;
+    color: rgb(141, 139, 136);
+    
+    
+}
+.di{
+    margin-left: 630px;
+    margin-top: -100px;
+}
+.vi{
+    margin-left: 700px;
+    margin-top: -35px;
+}
+.see{
+    margin-left: 350px;
+    margin-top: -35px;
+}
+.p{
+    margin-left: 10px;
+    margin-top: -35px;
+}
+.b{
+    margin-top: -40px;
+    margin-left: 30px;
+}
+
+.tools{
+    padding: 30px;
+    display: flex;
+    margin-left: -700px;
+margin-top: -15px;
+}
+.tools a{
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    border: 10.2px solid #eceaea;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+.tool {
+    margin-top: 20px;
+    width: 100px;
+    height: 80px;
+    border-radius: 10px; 
+    padding-left: 150px; 
+}
+.toole {
+    margin-top: -0px;
+    width: 200px;
+    height: 80px;
+    border-radius: 10px;  
+    padding-left: 150px;
+    border-top: #ccc solid 1px;
+}
+.ink{
+    margin-left: -650px;
+    margin-top: -150px;
+}
+.inke{
+    margin-left: -650px;
+    margin-top: -100px;
+    font-size: 20px;
+    margin-top: -100px;
+}
+.insec{
+    margin-left: -500px;
+    margin-top: -35px;
+}
+.Apple {
+   margin-left: -150px;
+   font-size: 30px;
+   margin-top: -30px;
+   color: rgb(48, 114, 189);
+}
+.Apples{
+    margin-left: -150px;
+}
+.content{
+    margin-left: -150px;
+    margin-top: -40px;
+}
+.seo{
+    margin-left: -150px;
+    font-size: 40px;
+    color: rgb(47, 47, 208);
+    margin-top: -40px;
+}
+.ppc{
+    margin-left: -150px;
+    font-size: 40px;
+    color: rgb(50, 23, 207);
+    margin-top: -30px;
+}
+.search{
+    margin-left: -150px;
+    margin-top: -39px;
+}
+#umn{
+    border: #ccc solid 1px;
+    margin-left: 400px;
+}
+.image img{
+    font-size: 100px;
+    width: 50px;
+    height: 30px;
+    margin-left: 480px;
+    margin-top: -400px;
+}

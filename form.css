@@ -1,0 +1,17 @@
+#form-group{
+    background-color: hwb(123 18% 17%);
+border-radius: 10px;
+border: 1px;
+width: 80%;
+margin-left: 5%;
+}
+
+    #form-group input,select{
+        background-color: #e5eae0;
+    border-radius: 5%;
+    width: 80%;
+  padding-left: 2%;   
+}
+#form-group button{
+background-color: hsl(294, 74%, 48%);
+}
