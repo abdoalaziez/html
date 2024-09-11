@@ -5,8 +5,6 @@ const password =document.getElementById('passsword');
 const password2 =document.getElementById('passsword2');
     form.addEveentlisttener('submit'e => {
         e. preventDefault();
-
-        
         validateInputs();
     });
 const setError =(element,message)=>{

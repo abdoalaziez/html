@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+        <input type="text"id="todo-value"placeholder="Search">
+        <button id="add">submit</button>
+            <ul id="list">
+            </ul>
+    </div>
+    <script>
+        document.getElementById('add').addEventListener('click',function(){
+            const todovalue=document.getElementById('todo-value').value;
+            const li=document.createElement('li')
+            li.textContent = todovalue;
+             document.getElementById('list').appendChild(li);
+              document.getElementById('todo-value').value='';
+        });
+    </script>
+</body>
+</html>
